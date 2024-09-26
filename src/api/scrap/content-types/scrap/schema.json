@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scraps",
+  "info": {
+    "singularName": "scrap",
+    "pluralName": "scraps",
+    "displayName": "Scrap",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emoji": {
+      "type": "string",
+      "required": true,
+      "maxLength": 4
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
