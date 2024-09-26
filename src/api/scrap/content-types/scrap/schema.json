@@ -24,6 +24,10 @@
     "body": {
       "type": "richtext",
       "required": true
+    },
+    "tags": {
+      "type": "json",
+      "required": true
     }
   }
 }

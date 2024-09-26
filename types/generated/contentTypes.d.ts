@@ -19,6 +19,7 @@ export interface ApiScrapScrap extends Struct.CollectionTypeSchema {
       }>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     body: Schema.Attribute.RichText & Schema.Attribute.Required;
+    tags: Schema.Attribute.JSON & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
