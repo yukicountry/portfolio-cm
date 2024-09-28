@@ -26,8 +26,15 @@
       "required": true
     },
     "tags": {
-      "type": "json",
-      "required": true
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "unique": true
     }
   }
 }
